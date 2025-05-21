@@ -1,4 +1,4 @@
-package survey;
+package survey.constant;
 
 public class Constant {
     public static String WARNING_TITLE = "Cảnh báo";

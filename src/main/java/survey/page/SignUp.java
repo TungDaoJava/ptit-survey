@@ -1,12 +1,14 @@
-package survey;
+package survey.page;
+
+import survey.sql.SQLManage;
 
 import javax.swing.*;
 import java.awt.*;
 import java.sql.SQLException;
 
-import static survey.Constant.FONT_TYPE;
-import static survey.Constant.INFO_TITLE;
-import static survey.Constant.WARNING_TITLE;
+import static survey.constant.Constant.FONT_TYPE;
+import static survey.constant.Constant.INFO_TITLE;
+import static survey.constant.Constant.WARNING_TITLE;
 
 public class SignUp {
     public void signUpView() {
